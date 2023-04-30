@@ -1,0 +1,9 @@
+<div class="container">
+  <label>Имя</label>
+  <input
+    type="text"
+    [(ngModel)]="text"
+  />
+  <button (click)="findAge(text)">Узнать возраст</button>
+  <p>Возраст = {{age}}</p>
+</div>
